@@ -153,3 +153,7 @@ div.bigText p{
     font-weight: lighter;
     text-transform: uppercase;
 }
+
+.bigText span{
+    color: #FFFACD;
+}
