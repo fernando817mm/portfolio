@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 2px solid lightgreen; */
+}
+
+/* General Styles */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 5%;
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Styles */
+
+header{
+    margin-top: 1%;
+}
+
+nav{
+    display: flex; 
+    justify-content: space-between;
+}
+
+nav .logo{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    align-items: flex-end;
+    color: #093145;
+}
+
+div.burger{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+div.burger .line{
+    width: 3rem;
+    height: .4rem;
+    margin: .2rem;
+    background-color: #093145;
+}
+
+#head div.welcome{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+}
+
+div.left{
+    width: 50%;
+    background-color: #F7F7F7;
+}
+
+div.right{
+    width: 50%;
+    display: flex;
+}
+
+div.right .line{
+    width: 33.33%;
+    justify-content: space-evenly;
+}
+
+.lineOne{
+    background-color: #E6AF2E;
+}
+
+.lineTwo{
+    background-color: #FFD700;
+}
+
+.lineThree{
+    background-color: #FFFACD;
+}
+
+div.bigText{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    left: 39.5%;
+    top: 40.5%;
+    z-index: 10;
+    color: #093145;
+}
+
+div.bigText p{
+    font-family: 'Bodoni Moda', serif;;
+    font-size: 13.5rem;
+    line-height: 11rem;
+    letter-spacing: -.4rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
